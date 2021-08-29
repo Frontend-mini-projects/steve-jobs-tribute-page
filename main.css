@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    display: block;
+    width: 75%;
+    margin: auto;
+
+}
+
+#headerimg {
+    background-image: url('img/heading.png');
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin: auto;
+}
+
+#headertext {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 5px;
+    font-size: x-large;
+    background-color: rgb(236, 233, 233);
+}
+
+#header h2 {
+    color: rgb(221, 219, 219);
+    font-weight: bolder;
+    font-size: 5rem;
+    font-family: 'Karla', sans-serif;
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: auto;
+    width: 80%;
+    grid-gap: 30px;
+}
+
+
+#maincontent {
+    margin-right: 5px;
+}
+
+
+.timeline {
+    padding: 2px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin: auto 2px;
+}
+
+.date {
+    font-weight: bold;
+    margin-right: 5px;
+    width: 80px;
+}
+
+
+
+#sidecontent img {
+    width: 100%;
+    margin: 15px auto;
+
+}
+
+#caption {
+    display: block;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0.5rem;
+}
+
+.smallfont {
+    font-size: small;
+}
+
+.detail {
+    background-color: #f9f9f9;
+}
+
+#bottom {
+    background-color: gray;
+    display: block;
+    margin: 1% auto;
+    width: 80%;
+}
+
+.footer {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #ececec;
+    height: 200px;
+}
+
+.quote {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    padding: 15px;
+
+}
+
+a {
+    color: rgb(83, 83, 247);
+}
+
+a:hover {
+    color: rgb(18, 18, 228);
+}
+
+hr {
+    margin-bottom: 2px;
+}
+
+#sidecontent p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 800px) {
+    .quote {
+        font-size: 20px;
+
+    }
+
+    #header h2 {
+        font-size: 4rem;
+    }
+
+    #header {
+        display: block;
+
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin: 10px;
+        grid-gap: 20px;
+    }
+
+    .quote {
+        font-size: 14px;
+
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    .quote {
+        font-size: 17px;
+
+    }
+
+    .container {
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        grid-gap: 2px;
+    }
+
+    .quote {
+        font-size: 15px;
+    }
+}
