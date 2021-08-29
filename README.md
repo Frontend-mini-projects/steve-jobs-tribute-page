@@ -14,3 +14,5 @@ Preview image -2
 Webpage Hosted link - https://dhbikzbeagudhqegqgqn9g-on.drv.tw/Web%20development%20Projects/Steve%20Jobs%20tribute%20page/index10.html
 
 Reference - https://codepen.io/coderofdark/pen/BzPArk
+
+Note - I am not promoting any of source given in this repository.
